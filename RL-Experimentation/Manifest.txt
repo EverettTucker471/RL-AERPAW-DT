@@ -1,0 +1,3 @@
+IP Address of FixedNode is 192.168.128.1
+IP Address of PortableNode is 192.168.128.2
+IP Address of OEO Console is 192.168.128.62

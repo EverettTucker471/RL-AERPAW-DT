@@ -1,0 +1,53 @@
+
+<!-- # Geometry File -->
+
+<scene version="2.1.0">
+	<shape type="shapegroup" id="mesh-None_roads_residential" name="mesh-None_roads_residential">
+		<shape type="ply" name="None_roads_residential">
+			<string name="filename" value="meshes/None_roads_residential.ply"/>
+			<ref id="mat-roads_residential" name="bsdf"/>
+		</shape>
+	</shape>
+	<shape type="instance" id="elm__3" name="elm__3">
+		<ref id="mesh-None_roads_residential" name="shape"/>
+		<transform name="to_world">
+			<matrix value="0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.300000 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape type="shapegroup" id="mesh-None_paths_footway" name="mesh-None_paths_footway">
+		<shape type="ply" name="None_paths_footway">
+			<string name="filename" value="meshes/None_paths_footway.ply"/>
+			<ref id="mat-paths_footway" name="bsdf"/>
+		</shape>
+	</shape>
+	<shape type="instance" id="elm__6" name="elm__6">
+		<ref id="mesh-None_paths_footway" name="shape"/>
+		<transform name="to_world">
+			<matrix value="0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.300000 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape type="shapegroup" id="mesh-None_roads_track" name="mesh-None_roads_track">
+		<shape type="ply" name="None_roads_track">
+			<string name="filename" value="meshes/None_roads_track.ply"/>
+			<ref id="mat-roads_track" name="bsdf"/>
+		</shape>
+	</shape>
+	<shape type="instance" id="elm__9" name="elm__9">
+		<ref id="mesh-None_roads_track" name="shape"/>
+		<transform name="to_world">
+			<matrix value="0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.300000 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape type="shapegroup" id="mesh-None_roads_service" name="mesh-None_roads_service">
+		<shape type="ply" name="None_roads_service">
+			<string name="filename" value="meshes/None_roads_service.ply"/>
+			<ref id="mat-roads_service" name="bsdf"/>
+		</shape>
+	</shape>
+	<shape type="instance" id="elm__12" name="elm__12">
+		<ref id="mesh-None_roads_service" name="shape"/>
+		<transform name="to_world">
+			<matrix value="0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.300000 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+</scene>

@@ -1,0 +1,8 @@
+
+<!-- # Cameras and Render Parameters File -->
+
+<scene version="2.1.0">
+	<integrator type="path" id="elm__0" name="elm__0">
+		<integer name="max_depth" value="12"/>
+	</integrator>
+</scene>

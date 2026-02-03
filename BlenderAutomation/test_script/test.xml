@@ -1,0 +1,28 @@
+
+<!-- # Main Scene File -->
+
+<scene version="2.1.0">
+
+<!-- Defaults, these can be set via the command line: -Darg=value -->
+
+
+<!-- Camera and Rendering Parameters -->
+
+	<include filename="fragments/test-render.xml"/>
+
+<!-- Materials -->
+
+	<include filename="fragments/test-materials.xml"/>
+
+<!-- Emitters -->
+
+	<include filename="fragments/test-emitters.xml"/>
+
+<!-- Shapes -->
+
+	<include filename="fragments/test-geometry.xml"/>
+
+<!-- Volumes -->
+
+	<include filename="fragments/test-volumes.xml"/>
+</scene>

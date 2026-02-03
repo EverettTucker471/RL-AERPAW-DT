@@ -1,0 +1,51 @@
+<scene version="2.1.0">
+
+<!-- Defaults, these can be set via the command line: -Darg=value -->
+
+
+<!-- Camera and Rendering Parameters -->
+
+	<integrator type="path" id="elm__0" name="elm__0">
+		<integer name="max_depth" value="12"/>
+	</integrator>
+
+<!-- Materials, Metal for the building and medium dry ground for the rest of the terrain -->
+
+    <bsdf type="diffuse" id="mat-itu_metal" name="mat-itu_metal">
+		<rgb value="0.290000 0.250000 0.210000" name="reflectance"/>
+	</bsdf>
+
+	<bsdf type="twosided" id="mat-itu_medium_dry_ground" name="mat-itu_medium_dry_ground">
+		<bsdf type="principled" name="bsdf">
+			<rgb value="0.630753 0.590620 0.287441" name="base_color"/>
+			<rgb value="1.000000 1.000000 1.000000" name="spec_tint"/>
+			<float name="spec_trans" value="0.000000"/>
+			<float name="metallic" value="0.000000"/>
+			<float name="anisotropic" value="0.000000"/>
+			<float name="roughness" value="0.250000"/>
+			<float name="sheen" value="0.000000"/>
+			<rgb value="1.000000 1.000000 1.000000" name="sheen_tint"/>
+			<float name="clearcoat" value="0.000000"/>
+			<float name="clearcoat_gloss" value="0.000900"/>
+			<float name="specular" value="0.500000"/>
+		</bsdf>
+	</bsdf>
+
+<!-- Emitters -->
+
+
+<!-- Shapes -->
+
+	<shape type="ply" id="animal-health-building" name="animal-health-building">
+		<string name="filename" value="/home/everetttucker471/Documents/RL-AERPAW-DT/LiDAR/lake-wheeler-segment-interior.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+
+    <shape type="ply" id="terrain" name="terrain">
+		<string name="filename" value="/home/everetttucker471/Documents/RL-AERPAW-DT/LiDAR/lake-wheeler-segment-exterior.ply"/>
+		<ref id="mat-itu_medium_dry_ground" name="bsdf"/>
+	</shape>
+
+<!-- Volumes -->
+
+</scene>

@@ -1,0 +1,17 @@
+
+<!-- # Materials File -->
+
+<scene version="2.1.0">
+	<bsdf type="diffuse" id="mat-roads_residential" name="mat-roads_residential">
+		<rgb value="0.086500 0.090842 0.088656" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-paths_footway" name="mat-paths_footway">
+		<rgb value="0.086500 0.090842 0.088656" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-roads_track" name="mat-roads_track">
+		<rgb value="0.564712 0.332452 0.066626" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-roads_service" name="mat-roads_service">
+		<rgb value="0.086500 0.090842 0.088656" name="reflectance"/>
+	</bsdf>
+</scene>

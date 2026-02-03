@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.62.8 e802775f">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2026-01-18T02:05:02Z"/>
+
+  <node id="269702679" lat="41.8515588" lon="-87.6104938"/>
+  <node id="269702680" lat="41.8510823" lon="-87.6126315"/>
+  <node id="1427745586" lat="41.8514763" lon="-87.6108668"/>
+  <node id="1427745620" lat="41.8511898" lon="-87.6121497"/>
+  <node id="1427745715" lat="41.8511737" lon="-87.6122221">
+    <tag k="amenity" v="loading_dock"/>
+  </node>
+  <node id="2040510172" lat="41.8514859" lon="-87.6108237">
+    <tag k="amenity" v="loading_dock"/>
+  </node>
+  <node id="2148393344" lat="41.8521134" lon="-87.6130286"/>
+  <node id="2392353577" lat="41.8541910" lon="-87.6138508">
+    <tag k="entrance" v="yes"/>
+  </node>
+  <node id="2392353579" lat="41.8515319" lon="-87.6106092">
+    <tag k="entrance" v="yes"/>
+  </node>
+  <node id="2392353580" lat="41.8511084" lon="-87.6125144">
+    <tag k="entrance" v="yes"/>
+  </node>
+  <node id="7182160959" lat="41.8551077" lon="-87.6119179"/>
+  <node id="7182160960" lat="41.8546426" lon="-87.6140284"/>
+  <node id="7182160961" lat="41.8546648" lon="-87.6139373"/>
+  <node id="7182172046" lat="41.8524989" lon="-87.6131796"/>
+  <node id="7182172053" lat="41.8527420" lon="-87.6109869">
+    <tag k="entrance" v="yes"/>
+  </node>
+  <node id="7193673164" lat="41.8546773" lon="-87.6138825"/>
+  <node id="9451526232" lat="41.8544767" lon="-87.6136162"/>
+  <node id="9451526233" lat="41.8547957" lon="-87.6121368"/>
+  <node id="9451526234" lat="41.8517236" lon="-87.6109205"/>
+  <node id="9451526235" lat="41.8513977" lon="-87.6123987"/>
+  <node id="9451526236" lat="41.8523812" lon="-87.6127886"/>
+  <node id="9451526237" lat="41.8523065" lon="-87.6127591"/>
+  <node id="9451526238" lat="41.8521759" lon="-87.6130517"/>
+  <node id="9451526239" lat="41.8523719" lon="-87.6131292"/>
+  <node id="9451526246" lat="41.8535182" lon="-87.6132376">
+    <tag k="entrance" v="yes"/>
+    <tag k="ref" v="1"/>
+  </node>
+  <node id="9451526248" lat="41.8542091" lon="-87.6135105">
+    <tag k="entrance" v="yes"/>
+    <tag k="ref" v="2"/>
+  </node>
+  <node id="9451526250" lat="41.8545862" lon="-87.6131032">
+    <tag k="entrance" v="yes"/>
+    <tag k="ref" v="3-10"/>
+  </node>
+  <node id="9451526276" lat="41.8514667" lon="-87.6120832">
+    <tag k="entrance" v="yes"/>
+  </node>
+  <node id="9451526277" lat="41.8516551" lon="-87.6112376">
+    <tag k="entrance" v="yes"/>
+  </node>
+  <node id="9451526278" lat="41.8515142" lon="-87.6106968"/>
+  <node id="11235826908" lat="41.8523438" lon="-87.6127739">
+    <tag k="door" v="yes"/>
+  </node>
+  <node id="11935878980" lat="41.8511305" lon="-87.6124159"/>
+  <node id="11935879205" lat="41.8510862" lon="-87.6126139"/>
+  <node id="11935904965" lat="41.8523108" lon="-87.6131050"/>
+  <node id="11936033010" lat="41.8543429" lon="-87.6135633">
+    <tag k="amenity" v="loading_dock"/>
+    <tag k="ref" v="B3-B9"/>
+  </node>
+  <node id="11936033011" lat="41.8536972" lon="-87.6133083">
+    <tag k="amenity" v="loading_dock"/>
+    <tag k="ref" v="A3-A10"/>
+  </node>
+  <node id="11936033014" lat="41.8546869" lon="-87.6126401">
+    <tag k="amenity" v="loading_dock"/>
+    <tag k="ref" v="C1"/>
+  </node>
+  <node id="11936033017" lat="41.8545231" lon="-87.6120289">
+    <tag k="entrance" v="yes"/>
+    <tag k="ref" v="11"/>
+  </node>
+  <node id="11936033019" lat="41.8538192" lon="-87.6117502">
+    <tag k="entrance" v="yes"/>
+    <tag k="ref" v="12"/>
+  </node>
+  <node id="11936033020" lat="41.8546594" lon="-87.6120828">
+    <tag k="amenity" v="loading_dock"/>
+    <tag k="ref" v="D1-D7"/>
+  </node>
+  <node id="11936033021" lat="41.8540056" lon="-87.6118240">
+    <tag k="amenity" v="loading_dock"/>
+    <tag k="ref" v="E3-E11"/>
+  </node>
+  <node id="11936033032" lat="41.8526703" lon="-87.6112953">
+    <tag k="entrance" v="yes"/>
+  </node>
+  <node id="11936033033" lat="41.8522436" lon="-87.6127341">
+    <tag k="entrance" v="yes"/>
+  </node>
+  <node id="11936033034" lat="41.8524405" lon="-87.6128120">
+    <tag k="entrance" v="yes"/>
+  </node>
+  <node id="11938569630" lat="41.8547027" lon="-87.6137665"/>
+  <node id="11938569632" lat="41.8550496" lon="-87.6121833"/>
+  <node id="13191091074" lat="41.8546400" lon="-87.6140431"/>
+  <node id="13191458770" lat="41.8511190" lon="-87.6124669"/>
+  <node id="13191487697" lat="41.8515548" lon="-87.6105110"/>
+  <node id="13191487698" lat="41.8515225" lon="-87.6106557"/>
+  <node id="13343559511" lat="41.8541707" lon="-87.6138424"/>
+  <node id="13343559513" lat="41.8542135" lon="-87.6138603"/>
+  <node id="13343566803" lat="41.8541610" lon="-87.6138385"/>
+  <way id="136340574">
+    <nd ref="7182172046"/>
+    <nd ref="13343566803"/>
+    <nd ref="13343559511"/>
+    <nd ref="2392353577"/>
+    <nd ref="13343559513"/>
+    <nd ref="13191091074"/>
+    <nd ref="7182160960"/>
+    <nd ref="7182160961"/>
+    <nd ref="7193673164"/>
+    <nd ref="11938569630"/>
+    <nd ref="11938569632"/>
+    <nd ref="7182160959"/>
+    <nd ref="7182172053"/>
+    <nd ref="269702679"/>
+    <nd ref="13191487697"/>
+    <nd ref="2392353579"/>
+    <nd ref="13191487698"/>
+    <nd ref="9451526278"/>
+    <nd ref="2040510172"/>
+    <nd ref="1427745586"/>
+    <nd ref="1427745620"/>
+    <nd ref="1427745715"/>
+    <nd ref="11935878980"/>
+    <nd ref="13191458770"/>
+    <nd ref="2392353580"/>
+    <nd ref="11935879205"/>
+    <nd ref="269702680"/>
+    <nd ref="2148393344"/>
+    <nd ref="9451526238"/>
+    <nd ref="11935904965"/>
+    <nd ref="9451526239"/>
+    <nd ref="7182172046"/>
+    <tag k="addr:city" v="Chicago"/>
+    <tag k="addr:housenumber" v="2301"/>
+    <tag k="addr:postcode" v="60616"/>
+    <tag k="addr:state" v="IL"/>
+    <tag k="addr:street" v="South Lake Shore Drive"/>
+    <tag k="amenity" v="conference_centre"/>
+    <tag k="building" v="exhibition_hall"/>
+    <tag k="height" v="30"/>
+    <tag k="layer" v="2"/>
+    <tag k="name" v="McCormick Place Lakeside Center"/>
+  </way>
+  <way id="1025043590">
+    <nd ref="9451526232"/>
+    <nd ref="9451526250"/>
+    <nd ref="11936033014"/>
+    <nd ref="9451526233"/>
+    <nd ref="11936033020"/>
+    <nd ref="11936033017"/>
+    <nd ref="11936033021"/>
+    <nd ref="11936033019"/>
+    <nd ref="11936033032"/>
+    <nd ref="9451526234"/>
+    <nd ref="9451526277"/>
+    <nd ref="9451526276"/>
+    <nd ref="9451526235"/>
+    <nd ref="11936033033"/>
+    <nd ref="9451526237"/>
+    <nd ref="11235826908"/>
+    <nd ref="9451526236"/>
+    <nd ref="11936033034"/>
+    <nd ref="9451526246"/>
+    <nd ref="11936033011"/>
+    <nd ref="9451526248"/>
+    <nd ref="11936033010"/>
+    <nd ref="9451526232"/>
+    <tag k="building:part" v="yes"/>
+    <tag k="height" v="100"/>
+  </way>
+
+</osm>

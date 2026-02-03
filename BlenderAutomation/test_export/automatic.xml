@@ -1,0 +1,359 @@
+<scene version="2.1.0">
+
+<!-- Defaults, these can be set via the command line: -Darg=value -->
+
+
+<!-- Camera and Rendering Parameters -->
+
+	<integrator type="path" id="elm__0" name="elm__0">
+		<integer name="max_depth" value="12"/>
+	</integrator>
+
+<!-- Materials -->
+
+	<bsdf type="diffuse" id="mat-wall" name="mat-wall">
+		<rgb value="1.000000 0.500000 0.200000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-roof" name="mat-roof">
+		<rgb value="0.290000 0.250000 0.210000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-8b4513" name="mat-8b4513">
+		<rgb value="0.545098 0.270588 0.074510" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-2f4f4f" name="mat-2f4f4f">
+		<rgb value="0.184314 0.309804 0.309804" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-red" name="mat-red">
+		<rgb value="1.000000 0.000000 0.000000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-white" name="mat-white">
+		<rgb value="1.000000 1.000000 1.000000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-gray" name="mat-gray">
+		<rgb value="0.502000 0.502000 0.502000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-black" name="mat-black">
+		<rgb value="0.000000 0.000000 0.000000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-darkgrey" name="mat-darkgrey">
+		<rgb value="0.663000 0.663000 0.663000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-grey" name="mat-grey">
+		<rgb value="0.502000 0.502000 0.502000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-lightgrey" name="mat-lightgrey">
+		<rgb value="0.827000 0.827000 0.827000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-silver" name="mat-silver">
+		<rgb value="0.753000 0.753000 0.753000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-f4e1c3" name="mat-f4e1c3">
+		<rgb value="0.956863 0.882353 0.764706" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-5a564b" name="mat-5a564b">
+		<rgb value="0.352941 0.337255 0.294118" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-brown" name="mat-brown">
+		<rgb value="0.647000 0.165000 0.165000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-d2aa6d" name="mat-d2aa6d">
+		<rgb value="0.823529 0.666667 0.427451" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-a58e9a" name="mat-a58e9a">
+		<rgb value="0.647059 0.556863 0.603922" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-ffe0a0" name="mat-ffe0a0">
+		<rgb value="1.000000 0.878431 0.627451" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-dda088" name="mat-dda088">
+		<rgb value="0.866667 0.627451 0.533333" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-f4a460" name="mat-f4a460">
+		<rgb value="0.956863 0.643137 0.376471" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-green" name="mat-green">
+		<rgb value="0.000000 0.502000 0.000000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-696969" name="mat-696969">
+		<rgb value="0.411765 0.411765 0.411765" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-vegetation" name="mat-vegetation">
+		<rgb value="0.007000 0.558000 0.005000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-water" name="mat-water">
+		<rgb value="0.009000 0.002000 0.800000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-areas_pedestrian" name="mat-areas_pedestrian">
+		<rgb value="0.086500 0.090842 0.088656" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-forest" name="mat-forest">
+		<rgb value="0.020000 0.208000 0.007000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-roads_primary" name="mat-roads_primary">
+		<rgb value="0.086500 0.090842 0.088656" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-roads_secondary" name="mat-roads_secondary">
+		<rgb value="0.086500 0.090842 0.088656" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-roads_residential" name="mat-roads_residential">
+		<rgb value="0.086500 0.090842 0.088656" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-paths_footway" name="mat-paths_footway">
+		<rgb value="0.086500 0.090842 0.088656" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-roads_service" name="mat-roads_service">
+		<rgb value="0.086500 0.090842 0.088656" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-roads_tertiary" name="mat-roads_tertiary">
+		<rgb value="0.086500 0.090842 0.088656" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-roads_pedestrian" name="mat-roads_pedestrian">
+		<rgb value="0.086500 0.090842 0.088656" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-paths_cycleway" name="mat-paths_cycleway">
+		<rgb value="0.086500 0.090842 0.088656" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-roads_unclassified" name="mat-roads_unclassified">
+		<rgb value="0.086500 0.090842 0.088656" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-paths_steps" name="mat-paths_steps">
+		<rgb value="0.086500 0.090842 0.088656" name="reflectance"/>
+	</bsdf>
+
+<!-- Emitters -->
+
+
+<!-- Shapes -->
+
+	<shape type="ply" id="elm__23" name="elm__23">
+		<string name="filename" value="meshes/None_buildings-wall.ply"/>
+		<ref id="mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__24" name="elm__24">
+		<string name="filename" value="meshes/None_buildings-roof.ply"/>
+		<ref id="mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__25" name="elm__25">
+		<string name="filename" value="meshes/None_buildings-8b4513.ply"/>
+		<ref id="mat-8b4513" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__26" name="elm__26">
+		<string name="filename" value="meshes/None_buildings-2f4f4f.ply"/>
+		<ref id="mat-2f4f4f" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__27" name="elm__27">
+		<string name="filename" value="meshes/None_buildings-red.ply"/>
+		<ref id="mat-red" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__28" name="elm__28">
+		<string name="filename" value="meshes/None_buildings-white.ply"/>
+		<ref id="mat-white" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__29" name="elm__29">
+		<string name="filename" value="meshes/None_buildings-gray.ply"/>
+		<ref id="mat-gray" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__30" name="elm__30">
+		<string name="filename" value="meshes/None_buildings-black.ply"/>
+		<ref id="mat-black" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__31" name="elm__31">
+		<string name="filename" value="meshes/None_buildings-darkgrey.ply"/>
+		<ref id="mat-darkgrey" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__32" name="elm__32">
+		<string name="filename" value="meshes/None_buildings-grey.ply"/>
+		<ref id="mat-grey" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__33" name="elm__33">
+		<string name="filename" value="meshes/None_buildings-lightgrey.ply"/>
+		<ref id="mat-lightgrey" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__34" name="elm__34">
+		<string name="filename" value="meshes/None_buildings-silver.ply"/>
+		<ref id="mat-silver" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__35" name="elm__35">
+		<string name="filename" value="meshes/None_buildings-f4e1c3.ply"/>
+		<ref id="mat-f4e1c3" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__36" name="elm__36">
+		<string name="filename" value="meshes/None_buildings-5a564b.ply"/>
+		<ref id="mat-5a564b" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__37" name="elm__37">
+		<string name="filename" value="meshes/None_buildings-brown.ply"/>
+		<ref id="mat-brown" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__38" name="elm__38">
+		<string name="filename" value="meshes/None_buildings-d2aa6d.ply"/>
+		<ref id="mat-d2aa6d" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__39" name="elm__39">
+		<string name="filename" value="meshes/None_buildings-a58e9a.ply"/>
+		<ref id="mat-a58e9a" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__40" name="elm__40">
+		<string name="filename" value="meshes/None_buildings-ffe0a0.ply"/>
+		<ref id="mat-ffe0a0" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__41" name="elm__41">
+		<string name="filename" value="meshes/None_buildings-dda088.ply"/>
+		<ref id="mat-dda088" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__42" name="elm__42">
+		<string name="filename" value="meshes/None_buildings-f4a460.ply"/>
+		<ref id="mat-f4a460" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__43" name="elm__43">
+		<string name="filename" value="meshes/None_buildings-green.ply"/>
+		<ref id="mat-green" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__44" name="elm__44">
+		<string name="filename" value="meshes/None_buildings-696969.ply"/>
+		<ref id="mat-696969" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__46" name="elm__46">
+		<string name="filename" value="meshes/None_vegetation.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-vegetation" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__48" name="elm__48">
+		<string name="filename" value="meshes/None_water.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-water" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__50" name="elm__50">
+		<string name="filename" value="meshes/None_areas_pedestrian.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-areas_pedestrian" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__52" name="elm__52">
+		<string name="filename" value="meshes/None_forest.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-forest" name="bsdf"/>
+	</shape>
+	<shape type="shapegroup" id="mesh-None_roads_primary" name="mesh-None_roads_primary">
+		<shape type="ply" name="None_roads_primary">
+			<string name="filename" value="meshes/None_roads_primary.ply"/>
+			<ref id="mat-roads_primary" name="bsdf"/>
+		</shape>
+	</shape>
+	<shape type="instance" id="elm__55" name="elm__55">
+		<ref id="mesh-None_roads_primary" name="shape"/>
+		<transform name="to_world">
+			<matrix value="1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.300000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape type="shapegroup" id="mesh-None_roads_secondary" name="mesh-None_roads_secondary">
+		<shape type="ply" name="None_roads_secondary">
+			<string name="filename" value="meshes/None_roads_secondary.ply"/>
+			<ref id="mat-roads_secondary" name="bsdf"/>
+		</shape>
+	</shape>
+	<shape type="instance" id="elm__58" name="elm__58">
+		<ref id="mesh-None_roads_secondary" name="shape"/>
+		<transform name="to_world">
+			<matrix value="1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.300000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape type="shapegroup" id="mesh-None_roads_residential" name="mesh-None_roads_residential">
+		<shape type="ply" name="None_roads_residential">
+			<string name="filename" value="meshes/None_roads_residential.ply"/>
+			<ref id="mat-roads_residential" name="bsdf"/>
+		</shape>
+	</shape>
+	<shape type="instance" id="elm__61" name="elm__61">
+		<ref id="mesh-None_roads_residential" name="shape"/>
+		<transform name="to_world">
+			<matrix value="1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.300000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape type="shapegroup" id="mesh-None_paths_footway" name="mesh-None_paths_footway">
+		<shape type="ply" name="None_paths_footway">
+			<string name="filename" value="meshes/None_paths_footway.ply"/>
+			<ref id="mat-paths_footway" name="bsdf"/>
+		</shape>
+	</shape>
+	<shape type="instance" id="elm__64" name="elm__64">
+		<ref id="mesh-None_paths_footway" name="shape"/>
+		<transform name="to_world">
+			<matrix value="1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.300000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape type="shapegroup" id="mesh-None_roads_service" name="mesh-None_roads_service">
+		<shape type="ply" name="None_roads_service">
+			<string name="filename" value="meshes/None_roads_service.ply"/>
+			<ref id="mat-roads_service" name="bsdf"/>
+		</shape>
+	</shape>
+	<shape type="instance" id="elm__67" name="elm__67">
+		<ref id="mesh-None_roads_service" name="shape"/>
+		<transform name="to_world">
+			<matrix value="1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.300000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape type="shapegroup" id="mesh-None_roads_tertiary" name="mesh-None_roads_tertiary">
+		<shape type="ply" name="None_roads_tertiary">
+			<string name="filename" value="meshes/None_roads_tertiary.ply"/>
+			<ref id="mat-roads_tertiary" name="bsdf"/>
+		</shape>
+	</shape>
+	<shape type="instance" id="elm__70" name="elm__70">
+		<ref id="mesh-None_roads_tertiary" name="shape"/>
+		<transform name="to_world">
+			<matrix value="1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.300000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape type="shapegroup" id="mesh-None_roads_pedestrian" name="mesh-None_roads_pedestrian">
+		<shape type="ply" name="None_roads_pedestrian">
+			<string name="filename" value="meshes/None_roads_pedestrian.ply"/>
+			<ref id="mat-roads_pedestrian" name="bsdf"/>
+		</shape>
+	</shape>
+	<shape type="instance" id="elm__73" name="elm__73">
+		<ref id="mesh-None_roads_pedestrian" name="shape"/>
+		<transform name="to_world">
+			<matrix value="1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.300000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape type="shapegroup" id="mesh-None_paths_cycleway" name="mesh-None_paths_cycleway">
+		<shape type="ply" name="None_paths_cycleway">
+			<string name="filename" value="meshes/None_paths_cycleway.ply"/>
+			<ref id="mat-paths_cycleway" name="bsdf"/>
+		</shape>
+	</shape>
+	<shape type="instance" id="elm__76" name="elm__76">
+		<ref id="mesh-None_paths_cycleway" name="shape"/>
+		<transform name="to_world">
+			<matrix value="1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.300000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape type="shapegroup" id="mesh-None_roads_unclassified" name="mesh-None_roads_unclassified">
+		<shape type="ply" name="None_roads_unclassified">
+			<string name="filename" value="meshes/None_roads_unclassified.ply"/>
+			<ref id="mat-roads_unclassified" name="bsdf"/>
+		</shape>
+	</shape>
+	<shape type="instance" id="elm__79" name="elm__79">
+		<ref id="mesh-None_roads_unclassified" name="shape"/>
+		<transform name="to_world">
+			<matrix value="1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.300000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape type="shapegroup" id="mesh-None_paths_steps" name="mesh-None_paths_steps">
+		<shape type="ply" name="None_paths_steps">
+			<string name="filename" value="meshes/None_paths_steps.ply"/>
+			<ref id="mat-paths_steps" name="bsdf"/>
+		</shape>
+	</shape>
+	<shape type="instance" id="elm__82" name="elm__82">
+		<ref id="mesh-None_paths_steps" name="shape"/>
+		<transform name="to_world">
+			<matrix value="1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.300000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+
+<!-- Volumes -->
+
+</scene>
