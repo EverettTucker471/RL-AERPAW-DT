@@ -14,7 +14,7 @@ import numpy as np
 import tensorflow as tf
 from typing import Tuple
 from sionna.rt import Transmitter, Receiver, PlanarArray, PathSolver, RadioMapSolver, RadioMaterialBase
-from .EnvironmentFramework import Environment, GroundUser
+from EnvironmentFramework import Environment, GroundUser
 
 
 class AERPAWEnv(Environment):
