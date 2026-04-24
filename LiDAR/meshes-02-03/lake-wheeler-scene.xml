@@ -12,6 +12,10 @@
 		<rgb value="0.290000 0.250000 0.210000" name="reflectance"/>
 	</bsdf>
 
+	<bsdf type="diffuse" id="mat-itu_metal" name="mat-itu_metal">
+		<rgb value="0.54 0.50000 0.200000" name="reflectance"/>
+	</bsdf>
+
 	<bsdf type="twosided" id="mat-itu_medium_dry_ground" name="mat-itu_medium_dry_ground">
 		<bsdf type="principled" name="bsdf">
 			<rgb value="0.630753 0.590620 0.287441" name="base_color"/>
@@ -30,15 +34,25 @@
 
 <!-- Mesh for the scene buildings -->
 
-	<shape type="ply" id="building-mesh" name="building-mesh">
-		<string name="filename" value="meshes/lake-wheeler-buildings-ascii-output.ply"/>
+	<shape type="ply" id="building-walls" name="building-walls">
+		<string name="filename" value="meshes/lake-wheeler-building-walls-output.ply"/>
 		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+
+	<shape type="ply" id="building-roofs" name="building-roofs">
+		<string name="filename" value="meshes/lake-wheeler-building-roofs-output.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+
+	<shape type="ply" id="building-roofs-shaped" name="building-roofs-shaped">
+		<string name="filename" value="meshes/lake-wheeler-building-roofs-shaped-output.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
 
 <!-- Mesh for the background terrain -->
 
     <shape type="ply" id="terrain-mesh" name="terrain-mesh">
-		<string name="filename" value="meshes/lake-wheeler-terrain-delauney-output.ply"/>
+		<string name="filename" value="/home/everetttucker471/Documents/RL-AERPAW-DT/LiDAR/meshes-01-30/meshes/terrain-mesh-small-output.ply"/>
 		<ref id="mat-itu_medium_dry_ground" name="bsdf"/>
 	</shape>
 

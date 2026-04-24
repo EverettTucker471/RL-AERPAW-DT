@@ -4,11 +4,14 @@ element vertex 336
 property float x
 property float y
 property float z
+property uchar red
+property uchar green
+property uchar blue
 property float nx
 property float ny
 property float nz
 element face 250
-property list uchar uint vertex_indices
+property list uchar int vertex_indices
 end_header
 -0.173997 0.00925917 0.0137999 -0.31357116 0.7568862 -0.5734079
 -0.213349 -0.0972222 0.0137999 -0.7203653 -0.39466068 -0.5703655

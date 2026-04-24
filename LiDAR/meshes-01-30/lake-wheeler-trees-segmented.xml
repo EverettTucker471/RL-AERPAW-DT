@@ -31,7 +31,7 @@
 <!-- Mesh for the scene buildings -->
 
 	<shape type="ply" id="building-mesh" name="building-mesh">
-		<string name="filename" value="meshes/building-mesh-output.ply"/>
+		<string name="filename" value="/home/everetttucker471/Documents/RL-AERPAW-DT/LiDAR/meshes-01-30/meshes/building-mesh-output.ply"/>
 		<ref id="mat-itu_concrete" name="bsdf"/>
 	</shape>
 
